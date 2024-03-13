@@ -1,0 +1,1 @@
+Order ID: 6, Order_Time: 200, Order_Status: принято                                                                                                                                                                                                 , Total_cost: 200,Products: 16

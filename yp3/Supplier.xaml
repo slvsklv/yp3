@@ -1,0 +1,21 @@
+﻿<Window x:Class="yp3.Supplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:yp3"
+        mc:Ignorable="d"
+        Title="Supplier" Height="450" Width="800">
+    <Grid Background="#44FCBF">
+        <!-- текстбоксы -->
+        <TextBox x:Name="TextBox_Copy2" Margin="297,289,407,112" Background="#50EDC5"/>
+        <ComboBox x:Name="TextBox_Copy" Margin="398,289,306,113" Background="#50EDC5"/>
+        <!-- датагрид -->
+        <DataGrid x:Name="SupplierDataGrid" Margin="50,44,54,179" Background="#50EDC5" Foreground="#9943E4"/>
+        <!-- Кнопки добавления, удаления и изменения -->
+        <Button Content="Add" Click="AddButton_Click" Margin="282,348,447,47" Background="#50EDC5" Foreground="#9943E4"/>
+        <Button Content="Update" Click="UpdateButton_Click" Margin="358,348,371,47" Background="#50EDC5" Foreground="#9943E4"/>
+        <Button Content="Delete" Click="DeleteButton_Click" Margin="434,348,289,47" Background="#50EDC5" Foreground="#9943E4"/>
+        <Button Content="Назад" Click="BackButton_Click" Margin="10,10,683,375" Background="#50EDC5" Foreground="#9943E4"/>
+    </Grid>
+</Window>
